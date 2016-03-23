@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 
-public class GUIBaseClass : MonoBehaviour{
+public class GUIBase : MonoBehaviour{
 	private const int LayerUI = 5;
 	public Camera UICamera;
 	GameObject UICanvas;
